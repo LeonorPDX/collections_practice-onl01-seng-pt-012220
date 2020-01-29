@@ -4,8 +4,12 @@ end
 
 
 def sort_array_desc(array)
-  desc_array = []
-  array.sort
-  desc_array << array.reverse
-  desc_array
+  array.sort |a, b|
+   if a == b
+     0
+   elsif a > b
+     -1
+   elsif a < b
+     1
+   end
 end
