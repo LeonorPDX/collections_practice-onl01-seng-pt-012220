@@ -40,7 +40,6 @@ def sum_array(array)
 end
 
 def add_s(array)
-  plural_array = []
   array.each_with_index.collect do |str, i|
     i != 1? str << "s" : str
   end
