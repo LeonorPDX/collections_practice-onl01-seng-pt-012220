@@ -19,8 +19,10 @@ end
 def kesha_maker(array)
   kesha_array = []
   array.each do |str|
-    
-  
+    str[2] = $
+    kesha_array << str
+  end
+  kesha_array
 end
 
 
