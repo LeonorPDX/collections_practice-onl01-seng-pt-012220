@@ -17,6 +17,7 @@ def swap_elements(array)
 end
 
 def reverse_array(array)
+  copy_array = []
   copy_array << array.reverse
   copy_array
 end
