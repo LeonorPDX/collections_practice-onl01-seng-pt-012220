@@ -44,11 +44,7 @@ def add_s(array)
   array.each_with_index.collect do |str, i|
     if i != 1
       str << "s"
-      plural_array << str
-    else
-      plural_array << str
     end
   end
-  plural_array
 end
 
