@@ -42,11 +42,7 @@ end
 def add_s(array)
   plural_array = []
   array.each_with_index.collect do |str, i|
-    if i != 1
-      str << "s"
-    else
-      str
-    end
+    i != 1? str << "s" : str
   end
 end
 
