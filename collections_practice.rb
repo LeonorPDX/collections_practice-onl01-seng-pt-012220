@@ -41,7 +41,7 @@ end
 
 def add_s(array)
   plural_array = []
-  array.except(array[2]).each do |str|
+  array.each do |str|
     str << "s"
     plural_array << str
   end
