@@ -40,9 +40,11 @@ def sum_array(array)
 end
 
 def add_s(array)
-  array.except(array[2]).each! do |str|
+  plural_array = []
+  array.except(array[2]).each do |str|
     str << "s"
+    plural_array << str
   end
-  array
+  plural_array
 end
 
