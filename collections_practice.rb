@@ -16,6 +16,11 @@ def swap_elements(array)
   array
 end
 
+def reverse_array(array)
+  copy_array << array.reverse
+  copy_array
+end
+
 def kesha_maker(array)
   kesha_array = []
   array.each do |str|
