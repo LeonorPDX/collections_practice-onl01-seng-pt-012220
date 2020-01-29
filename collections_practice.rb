@@ -43,5 +43,6 @@ def add_s(array)
   array.except(array[2]).each.collect do |str|
     str << "s"
   end
+  array
 end
 
