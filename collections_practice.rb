@@ -12,5 +12,5 @@ def sort_array_char_count(array)
 end
 
 def swap_elements(array)
-  array.insert(1, array[2])
+  array.insert(1, array.delete_at(array[2]))
 end
