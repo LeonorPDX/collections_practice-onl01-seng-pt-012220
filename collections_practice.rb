@@ -45,6 +45,7 @@ def add_s(array)
     if i != 1
       str << "s"
     else
+      str
     end
   end
 end
